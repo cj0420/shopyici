@@ -1,0 +1,308 @@
+@charset "utf-8";
+
+/* CSS Document */
+/*公用*/
+
+.comWidth
+{
+	width: 1226px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.leftArea
+{
+	float: left;
+}
+
+.rightArea
+{
+	float: right;
+	padding-right: 40px;
+}
+.hide_lr{
+	display:none;
+}
+/*topbar*/
+
+.topBar
+{
+	line-height:38px;
+	height: 40px;
+	background-color: #333333;
+}
+
+.topBar .leftArea a
+{
+	color: #b0b0b0;
+	font-family: "宋体";
+}
+.leftArea a:hover{
+	color:#FFF;
+}
+.topBar .sep
+{
+	color: #424242;
+	margin: 0 0.5em;
+}
+
+.topBar .login
+{
+	padding: 0 5px;
+	text-align: center;
+	line-height: 40px;
+}
+
+.topBar .message
+{
+	padding: 0 10px;
+	text-align: center;
+}
+
+
+/*logobar*/
+
+.logoBar
+{
+	height: 80px;
+	background-color: #F5F5F5;
+    position: relative;
+	padding-top:20px;
+}
+.logo
+{
+    width: 62px;
+    
+}
+
+/*title*/
+
+.title
+{
+	font-size: 32px;
+	padding-top: 20px;
+}
+
+.title a
+{
+	padding-left:20px;
+	color: #333333;
+	font-family: "宋体";
+	padding-top:20px;
+}
+
+
+
+
+/*footer*/
+
+.footer
+{
+	text-align: center;
+	background-color: #F5F5F5;
+	line-height: 24px;
+	padding: 50px 0;
+	margin-top:15px;
+	
+}
+/*登录注册界面*/
+.login_logo .comWidth{
+	width:460px;
+	
+}
+.login_logo{
+	background-color:#333333;
+}
+.login_logo .logo{
+	marign-left:60px;
+}
+.login_logo .comWidth .title a{
+	color:#B0B0B0;
+}
+.login_logo .comWidth .title a:hover{
+	color:#FFF;
+}
+.welcome_title{
+	font:16px/85px "Microsoft YaHei", "微软雅黑" ;
+	color:#b0b0b0;
+	float:left;
+	padding-left:30px;
+}
+/*登录界面表单*/
+.loginBox{
+	width:458px;
+	border:#FFF solid 1px;
+	margin:10px auto;
+	background-color:#FFF;
+	height:500px;
+}
+.regBox{
+	width:458px;
+	border:#FFF solid 1px;
+	margin:10px auto;
+	background-color:#FFF;
+	height:600px;
+}
+.login_cont{
+	padding:50px 70px;
+}
+.l_tit{
+	clolor:#333333;
+	font:16px/40px "Microsoft YaHei", "微软雅黑" ;
+}
+.login_input{
+	width:100%;
+	border:#B0B0B0 solid 1px;
+	line-height:30px;
+	text-indent:5px;
+	background-color:#FFF;
+}
+
+.check_box{
+	margin-top:10px;
+	width:100%;
+	line-height:30px;
+	font:16px/40px "Microsoft YaHei", "微软雅黑" ;
+}
+.checked{
+	margin-right:3px;
+}
+.rl_btn{
+	text-align:center;
+	font:16px/40px "Microsoft YaHei", "微软雅黑" ;
+	line-height:20px; height:20px; margin:0px; padding:0px; border:0px;
+	background-color:#666;
+	height:40px;
+	line-height:22px;/*针对IE*/
+	width:100%;
+	color:#000;
+	margin-top:20px;
+}
+.rl_btn:hover{
+	background-color:#333333;
+	color:#FFF;
+}
+	
+.loginBox a{
+	font:16px "Microsoft YaHei", "微软雅黑";
+	height:40px;
+	line-height:40px;
+	width:100%;
+	padding-left:300px;
+	color:#333333;
+}
+.regBox a{
+	font:16px "Microsoft YaHei", "微软雅黑";
+	height:40px;
+	line-height:40px;
+	width:100%;
+	padding-left:300px;
+	color:#333333;
+}
+
+.loginBox a:hover{
+	color:#000;
+}
+.regBox a:hover{
+	color:#000;
+}
+
+/*个人中心*/
+.per{
+	height:580px;
+}
+.per_title{
+	padding-top:20px;
+	padding-bottom:20px;
+	height:40px;
+	width:100%;
+	background-color:#F5F5F5;
+	padding-left:57px;
+}
+.per_title h1{
+	font:32px "Microsoft YaHei", "微软雅黑";
+	font-weight:normal;
+	float:left;
+	line-height:40px;
+	
+}
+
+.per_title a{
+	float:left;
+	font:16px "Microsoft YaHei", "微软雅黑";
+	padding-left:30px;
+	line-height:16px;
+	margin-top:24px;
+	color:#000;
+}
+.perList{
+	height:240px;
+	width:150px;
+	padding-left:57px;
+}
+.perList_item{
+	width:100%;
+	padding-top:20px;
+	marign-left:10px;
+	line-height:44px;
+	font:16px "Microsoft YaHei", "微软雅黑";
+}
+.perList_item li{
+	line-height:44px;
+	color:#b0b0b0;
+	width:100%;
+}
+.perList_item a:hover{
+	color:#FFF;
+	background-color:#333333;
+}
+.perList_item a{
+	width:140px;
+	height: 44px;
+	display: inline-block;
+	color: #333333;
+	padding-left:10px;
+}
+.perList_item hr{
+	color:#b0b0b0;
+}
+.perDetail{
+	font-size:16px;
+	width:926px;
+	height:500px;
+}
+.perDetail .save_btn{
+	
+	width:60px;
+	height:30px;
+	color:#333;
+}
+.perDetail .save_btn:hover{
+	color:#000;
+	border:#b0b0b0 solid 1px;
+}
+.essentialInfo{
+	padding-top:20px;
+	padding-left:100px;
+}
+.info_item li{
+	line-height:44px;
+	color:#333333;
+	
+}
+.info_input{
+	line-height:30px;
+	margin-left:20px;
+	width:300px;
+	border: #CCC solid 1px;
+}
+.hide_pd{
+	display:none;
+}
+.msgShow{
+	padding-top:20px;
+	padding-left:100px;
+}
+.hide_msg{
+	display:none;
+}

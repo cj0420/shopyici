@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <!--如果系统安装ie8或以上版本，则使用最高版本ie渲染；-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--响应式布局，第三个用于相应移动设备-->
+    <!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>****-全国最好的校内商品交易平台</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/class-detail.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--导航栏 -->
+<nav class="navbar navbar-default " role="navigation">
+    <div class="container">
+        <div class="nav-header">
+            <a class="nav-logo navbar-brand " href="index.php"><img src="images/logo.png"></a>
+            <h3 id="nav-title">****</h3>
+            <div class="nav-r">
+                <a class="login" href="member/login.php">登录</a>
+                <a class="reg" href="member/register.php">免费注册</a>
+                <!--                <a>用户名</a>-->
+                <!--                <a>退出</a>-->
+                <a href="">消息通知<span id="msg">(1)</span></a>
+                <a href="">反馈我们</a>
+                <a class="nav-we" href="">联系我们</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="header">
+    <div class="navigationBar">
+<!--        <div id="all-class"><img src="images/all-class.png"></div>-->
+    </div><!-- navigationBar end -->
+</div><!-- header end -->
+<!--<div id="header-bottom">-->
+<!--    <div id="header-bottom-black">-->
+<!---->
+<!--    </div>-->
+<!--</div>-->
+<div>
+    
+</div>
+<div class="promise">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-4">
+
+            </div>
+            <div class="col-xs-4">
+
+            </div>
+            <div class="col-xs-4">
+
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<div class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-4">
+
+            </div>
+            <div class="col-xs-4">
+
+            </div>
+            <div class="col-xs-4">
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--放在下面为了页面加载快一点-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

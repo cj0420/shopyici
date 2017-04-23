@@ -1,0 +1,65 @@
+
+   <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+
+</head>
+<body>
+<table class="login_table">
+      <tr>
+        <td>账号</td>
+        <td><input type="text" value="请输入您的账号" class="admin" /></td>
+      </tr>
+      <tr>
+        <td>密码</td>
+        <td>
+            <input type="text" value="请输入您的密码"id="login_showPwd" />
+            <input type="password"id="login_password" style="display: none"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+         <input type="button" value="登录" />
+         <input type="button" value="重置" id ="btn_res"/>
+        </td>
+      </tr>
+   </table>
+<script>
+$(function(){
+      $(".admin").focus(function(){
+        if($(this).val() == "请输入您的账号"){
+        $(this).val("");
+         }
+     });
+     $(".admin").blur(function(){
+         if($(this).val() == ""){
+         $(this).val("请输入您的账号");
+         }
+ });
+// 密码部分
+$('#login_showPwd').focus(function(){
+    var text_value=$(this).val();
+    if(text_value == this.defaultValue){
+        $('#login_showPwd').hide();
+        $('#login_password').show().focus();
+    }
+});
+     $('#login_password').blur(function(){
+         var text_value = $(this).val();
+         if(text_value==""){
+            $('#login_showPwd').show();
+             $('#login_password').hide();
+         }
+     });
+//重置部分
+     $('#btn_res').click(function(){
+         $('.admin').val("请输入您的账号");
+         $('#login_password').hide().val("");
+         $("#login_showPwd").show();
+     });
+});
+</script>
+</body>
+</html>

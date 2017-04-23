@@ -1,0 +1,121 @@
+/*商品分类栏*/
+#loc{
+    margin:15px 0;
+}
+#location{
+    margin: 0;
+    padding: 0 0 0 15px;
+    font-size: 18px;
+    line-height: 18px;
+}
+.all,.inde{
+    font-size: 18px;
+    line-height: 18px;
+    color: #333;
+}
+.all:hover , .inde:hover{
+    color: #f60;
+    text-decoration: none;
+}
+#class_item{
+    width: 1136px;
+    height: 60px;
+    background-color: #FFF;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+#item_class{
+    margin-left:1px ;
+    height: 30px;
+}
+.item_c{
+    line-height: 30px;
+
+}
+#item_class a{
+    color: #333;
+    margin-left: 30px;
+}
+#item_class a:hover{
+    color: #f60;
+    cursor: pointer;
+    text-decoration: none;
+}
+#item_sort{
+    margin-left:1px ;
+    height: 30px;
+}
+#item_sort p{
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    line-height: 30px;
+}
+#byTime ,#byPrice , #byWord{
+    color: #333;
+    margin-left: 30px;
+}
+#byTime:hover ,#byPrice:hover , #byWord:hover{
+    color: #f60;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*商品分类页展示商品的瀑布布局*/
+
+#of_main_body{
+    position: relative;
+}
+.main_box{
+    padding: 15px 7.5px 0 7.5px;
+    float: left;
+
+}
+.box_item{
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #CCC;
+    background-color: #FFF;
+
+}
+.box_item img{
+    width: 250px;
+    height: auto;
+}
+.box_item img:hover{
+    cursor: pointer;
+}
+.box_item p{
+    width: 240px;
+}
+.box_item .pName{
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+    white-space: nowrap;/*强制不换行*/
+
+}
+.box_item .pName .pNameA{
+    font-size: 16px;
+    cursor: pointer;
+    color: #F60;
+}
+.box_item .pName .pNameA:hover{
+    text-decoration: none;
+    color: #66AFE9;
+}
+.box_item .pPrice{
+    padding-left: 30px;
+}
+.box_item .pOwner{
+    float: right;
+    color: #F60;
+
+}
+.box_item .pOwner:hover{
+    color: #66AFE9;
+    text-decoration: none;
+    cursor: pointer;
+}
+

@@ -1,0 +1,49 @@
+/*整站最基本的设置*/
+
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	border:none;
+}
+body{
+	/*font-family: Arial, 宋体;*/
+	font-family: Helvetica Neue , Helvetica , Arial ,"微软雅黑"， sans-serif;
+}
+li{
+	list-style:none;
+}
+input,select,textares{
+	outline:none;
+	border:none;
+	background:none;
+}
+textares{
+	resize:none;
+}
+a{
+	text-decoration:none;
+}
+.topBar a:hover{
+	text-decoration:none;
+}
+/*清浮动*/
+/* 新浪使用方式*/
+.clearfloat:after {
+	display: block;
+	clear: both;
+	content: "";
+	visibility: hidden;
+	height: 0;
+}
+
+.clearfloat { /*兼容 IE*/
+	zoom: 1;
+}
+.hide{
+	display: none;
+}
+
+
+	

@@ -1,0 +1,214 @@
+/*a one product detail*/
+
+#of_show{
+    height: auto;
+}
+#of_show .container{
+    margin: 0 15px !important;
+    width: 1219px !important;
+    background: #FFF;
+}
+.col-xs-5 , .col-xs-7{
+    padding: 0!important;
+    margin: 0!important;
+}
+/*website location*/
+#loc{
+    margin:15px 0;
+    width: 1249px;
+}
+#location{
+    margin: 0;
+    padding: 0 15px 0 15px;
+    font-size: 18px;
+    line-height: 18px;
+}
+.all,.inde{
+    font-size: 18px;
+    line-height: 18px;
+    color: #333;
+}
+.all:hover , .inde:hover{
+    color: #f60;
+    text-decoration: none;
+}
+/*owner*/
+#owner{
+    margin: 10px 15px;
+    width: 1219px;
+    height: 40px;
+    background-color: #fff;
+    border-bottom: 1px solid #CCC;
+}
+#owner p{
+    line-height: 40px;
+    padding: 0 10px;
+}
+#owner a{
+    text-decoration: none;
+    color: #494949;
+}
+.oMember{
+    float: left;
+    height: 40px;
+}
+.oMember img{
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+.oMember #oName{
+    font-size: 16px;
+    text-align: center;
+    float: left;
+}
+.oMember a{
+    margin-top: 10px;
+}
+.oReport{
+    margin-right: 10px;
+    float: right;
+}
+.oReport:hover{
+    color: #F60;
+}
+#owner-oP  ,#owner-oR ,#owner-oRep {
+    float: left;
+}
+#owner-oReport:hover{
+    color: #f60;
+    cursor: pointer;
+}
+#owner-gR ,#owner-gL ,#owner-gT {
+    float: right;
+}
+#oReport:hover{
+    color: #F60;
+    cursor: pointer;
+}
+/*product*/
+#good-pic{
+    width: 100%;
+    height: 500px;
+}
+#good-pic .big{
+    width: 710px;
+    height: 400px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
+#pic-big{
+    max-width: 690px ;
+    max-height: 380px;
+}
+.des_sming{
+    margin: 10px auto;
+    width: 400px;
+    height: 100px;
+    bottom: 0;
+    position: absolute;
+    left: 150px;
+}
+.des_sming>li{
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    float: left;
+    border: 1px solid #CCC;
+
+}
+.des_sming img{
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+}
+.des_sming>li:hover{
+    border: 1px solid #f60;
+}
+.active{
+    border: 1px solid #f60;
+}
+#good-intro{
+    width: 100%;
+    height: 500px;
+}
+#intro-de{
+    float: left;
+    height: 500px;
+    width: 350px;
+}
+#intro-de p{
+    font-size: 16px;
+}
+#intro-de a{
+    text-decoration: none;
+    color: #494949;
+}
+#intro-de #gPrice{
+    color: #f60;
+    font-size: 24px;
+}
+#intro-de #gAdd{
+    padding-top: 20px;
+}
+#gName{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 30px 0 20px 0;
+    margin: 0;
+}
+#owner-name:hover{
+    color: #f60;
+    cursor: pointer;
+}
+#good-t{
+    margin-top: 20px;
+}
+#gB{
+    bottom:40px;
+    left: 80px;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: #f60;
+}
+#gB a{
+    color: #FFF;
+    font-size: 24px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+/*of_website_promise*/
+#of_website_promise{
+    height: 200px;
+    background: #2aabd2;
+    margin: 15px;
+}
+
+/*discuss*/
+#of_discuss{
+    width: 1219px;
+    margin: 0 15px;
+}
+#good-owner-intro{
+    height: 160px;
+    /*background-color: #f5f5f5;*/
+    background-color: #FFF;
+    /*border: 1px solid #CCCCCC;*/
+}
+#item-title{
+    margin-top: 10px;
+    font-size: 24px;
+    color: #F60;
+}
+#good-owner-intro{
+    font-size: 16px;
+    line-height: 40px;
+}
+#owner-good-dis{
+   height: 400px;
+    background-color: #FFF;
+}

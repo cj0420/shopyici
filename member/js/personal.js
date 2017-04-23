@@ -1,0 +1,67 @@
+$(document).ready(function(){
+
+  $(".item_per").click(function(){
+  	 $(".perDetail").show();
+	 $(".item_per").css({"color":"#FFF","background-color":"#333333"});
+     $(".item_msg").css({"color":"#333","background-color":"#FFF"});
+     $(".item_pro").css({"color":"#333","background-color":"#FFF"});
+     $(".item_allPro").css({"color":"#333","background-color":"#FFF"});
+	 $(".item_set").css({"color":"#333","background-color":"#FFF"});		 
+	 $(".msgDetail").hide();
+	 $(".proDetail").hide();
+	 $(".allProDetail").hide();
+	 $(".setDetail").hide();
+  });
+  $(".item_msg").click(function(){
+  	 $(".perDetail").hide();
+	 $(".item_per").css({"color":"#333","background-color":"#FFF"});
+     $(".item_msg").css({"color":"#FFF","background-color":"#333"});
+     $(".item_pro").css({"color":"#333","background-color":"#FFF"});
+     $(".item_allPro").css({"color":"#333","background-color":"#FFF"});
+	 $(".item_set").css({"color":"#333","background-color":"#FFF"});	
+	 $(".msgDetail").show();
+	 $(".proDetail").hide();
+	 $(".allProDetail").hide();
+	 $(".setDetail").hide();
+  });
+  $(".item_pro").click(function(){
+  	 $(".perDetail").hide();
+	  $(".item_per").css({"color":"#333","background-color":"#FFF"});
+     $(".item_msg").css({"color":"#333","background-color":"#FFF"});
+     $(".item_pro").css({"color":"#FFF","background-color":"#333"});
+     $(".item_allPro").css({"color":"#333","background-color":"#FFF"});
+	 $(".item_set").css({"color":"#333","background-color":"#FFF"});
+	 $(".msgDetail").hide();
+	 $(".proDetail").show();
+	 $(".allProDetail").hide();
+	 $(".setDetail").hide();
+  });
+  $(".item_allPro").click(function(){
+  	 $(".perDetail").hide();
+	  $(".item_per").css({"color":"#333","background-color":"#FFF"});
+     $(".item_msg").css({"color":"#333","background-color":"#FFF"});
+     $(".item_pro").css({"color":"#333","background-color":"#FFF"});
+     $(".item_allPro").css({"color":"#FFF","background-color":"#333"});
+	 $(".item_set").css({"color":"#333","background-color":"#FFF"});
+	 $(".msgDetail").hide();
+	 $(".proDetail").hide();
+	 $(".allProDetail").show();
+	 $(".setDetail").hide();
+  });
+  $(".item_set").click(function(){
+  	 $(".perDetail").hide();
+	  $(".item_per").css({"color":"#333","background-color":"#FFF"});
+     $(".item_msg").css({"color":"#333","background-color":"#FFF"});
+     $(".item_pro").css({"color":"#333","background-color":"#FFF"});
+     $(".item_allPro").css({"color":"#333","background-color":"#FFF"});
+	 $(".item_set").css({"color":"#FFF","background-color":"#333"});
+	 $(".msgDetail").hide();
+	 $(".proDetail").hide();
+	 $(".allProDetail").hide();
+	 $(".setDetail").show();
+  });
+  
+ 
+  
+}); 
+

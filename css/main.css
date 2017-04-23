@@ -1,0 +1,157 @@
+/*整站的基本框架模型*/
+
+/*全局设置*/
+.container {
+    padding: 0 !important;
+    margin: 0 auto !important;
+    width: 1239px !important;
+}
+
+.row {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+html, body {
+    background-color: #F5F5F5;
+}
+
+/*导航栏*/
+.navbar-default {
+    width: 100% !important;
+    height: 70px !important;
+    padding: 0 !important;
+    margin: 0 auto !important;
+}
+
+.navbar-brand {
+    height: 60px;
+    margin: 5px 0 5px 100px !important;
+    padding: 0;
+    float: left;
+}
+
+.navbar {
+    min-height: 70px;
+    background: #FFF;
+}
+
+.navbar-default .container {
+    height: 70px !important;
+}
+
+#nav-title {
+    height: 60px;
+    margin: 5px 0 5px 20px;
+    padding: 0;
+    float: left;
+    line-height: 60px;
+}
+
+.nav-r {
+    float: right;
+    font-size: 16px;
+    margin: 24px 0 25px 0;
+}
+
+.nav-r > a {
+    color: #383838;
+    margin-right: 20px;
+}
+
+.nav-r > a:hover {
+    text-decoration: none;
+    color: #F60;
+}
+
+/*#msg {*/
+    /*color: #F60;*/
+
+/*}*/
+
+.nav-we {
+    padding-right: 40px;
+}
+
+/* navigationBar */
+.header{
+    width: 100%;
+    margin: 0 auto;
+    background: #f60;
+}
+
+ .navigationBar {
+    width: 1249px;
+    height: 42px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.navigationBar #all-class {
+    text-align: center;
+    width: 188px;
+    height: 42px;
+    margin-left: 6px;
+    padding:10px 0 0  0 !important;
+    line-height: 32px;
+    font-size: 24px;
+    color: #FFF;
+    background: #272727;
+}
+
+/*主体*/
+#of_show {
+    width: 1249px;
+    margin: 0 auto;
+    height: auto;
+}
+
+/*信用说明*/
+.promise {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #f60;
+}
+
+.promise .container {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-top: 60px !important;
+}
+
+.promise .container .row {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.promise .container .row .col-xs-4 {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/*关于网站*/
+.about {
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.about .container {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.about .container .row {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.about .container .row .col-xs-4 {
+    padding: 0 !important;
+    margin: 0 !important;
+    background: #000;
+    height: 200px;
+}
